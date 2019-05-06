@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+testing/yolov3.weights
+testing/yolov3-tiny.weights
+testing/yolo_out_py.avi
