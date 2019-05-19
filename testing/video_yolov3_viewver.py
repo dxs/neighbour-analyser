@@ -131,7 +131,7 @@ elif (args.video):
     outputFile = args.video[:-4]+'_yolo_out_py.avi'
 else:
     # Webcam input
-    cap = cv.VideoCapture(1)
+    cap = cv.VideoCapture(0)
 
 # Get the video writer initialized to save the output video
 if (not args.image):

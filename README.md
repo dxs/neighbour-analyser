@@ -10,3 +10,7 @@ Using a raspberry pi, a camera and computer vision to analyse what is happening 
     - video_yolov3_viewver.py
         - Get frame from camera, apply yoloV3 and show result
         
+
+## dependencies
+
+`sudo pip install numpy opencv-python`
