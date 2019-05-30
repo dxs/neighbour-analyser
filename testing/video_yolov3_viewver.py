@@ -111,7 +111,7 @@ def postprocess(frame, outs):
         drawPred(classIds[i], confidences[i], left, top, left + width, top + height)
 
 # Process inputs
-winName = 'Deep learning object detection in OpenCV'
+winName = 'Yolo'
 cv.namedWindow(winName, cv.WINDOW_NORMAL)
 
 outputFile = "yolo_out_py.avi"
@@ -131,7 +131,7 @@ elif (args.video):
     outputFile = args.video[:-4]+'_yolo_out_py.avi'
 else:
     # Webcam input
-    cap = cv.VideoCapture(0)
+    cap = cv.VideoCapture(1)
 
 # Get the video writer initialized to save the output video
 if (not args.image):
